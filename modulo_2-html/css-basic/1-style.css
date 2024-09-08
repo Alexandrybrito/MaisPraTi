@@ -1,0 +1,41 @@
+#cabecalho{
+            
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#conteudo{
+    margin: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: azure;
+}
+
+#rodape{
+    background-color: azure;
+}
+
+.paragrafoDestaque{
+    padding: 10px;
+    border-left: 5px solid #fbc02d;
+}
+
+.botao{
+    color: #fff;
+    padding: 10px;
+    border: none;
+    margin-right: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.botao-clique{
+    background-color: #4caf50;
+}
+
+.botao-saiba{
+    background-color: #008cba;
+}
+
+
+

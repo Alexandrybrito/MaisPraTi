@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="2-style.css" />
+  </head>
+
+  <body>
+    <h1>Desafio aula 4 - Formulário de Contato com Validação</h1>
+
+    <br /><br />
+    <hr />
+    <br />
+
+    <div class="container">
+      <form id="contato" action="submit" method="post">
+        <div class="row">
+          <div class="col-25">
+            <label for="nomeUsuario">Nome de Usuário: </label>
+          </div>
+          <div class="col-70">
+            <input
+              type="text"
+              id="username"
+              name="username"
+              required
+              placeholder="Insira seu nome"
+            /><br /><br />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-25">
+            <label for="email">E-mail: </label>
+          </div>
+          <div class="col-70">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Insira seu e-mail"
+            /><br /><br />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-25">
+            <label for="phone">Telefone: </label>
+          </div>
+          <div class="col-70">
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Insira seu Telefone"
+            /><br /><br />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-25">
+            <label for="assunto">Escolha o assunto: </label>
+          </div>
+          <div class="col-70">
+            <select id="assunto" name="escolha">
+              <option value="duvida">Dúvida</option>
+              <option value="suporte">Suporte</option>
+              <option value="feedback">Feedback</option>
+            </select>
+            <br />
+          </div>
+        </div>
+        <br />
+
+        <div class="row">
+          <div class="col-25">
+            <label for="mensagem">Mensagem: </label>
+          </div>
+          <div class="col-70">
+            <textarea
+              name="mensagem"
+              id="msg"
+              required
+              placeholder="Escreva aqui..."
+              style="height: 200px"
+            ></textarea>
+          </div>
+        </div>
+
+        <checkbox>
+          <div class="col-25">
+            <br /><br />
+            <label for="validation">Aceitar os termos de uso: </label><br />
+          </div>
+          <div class="col-70">
+            <br /><br /><br />
+            <input
+              type="checkbox"
+              id="validation"
+              name="validation"
+              value="aceito"
+              required
+            />
+
+            <label for="aceito">Eu aceito.</label>
+          </div>
+
+          <div class="col-70">
+            <input
+              type="checkbox"
+              id="validation"
+              name="validation"
+              value="naoAceito"
+              required
+            />
+
+            <label for="naoaceito">Não aceito.</label>
+          </div>
+        </checkbox>
+
+        <div class="col-70">
+          <input type="submit" value="Enviar" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
