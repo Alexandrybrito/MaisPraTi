@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form2.css">
+    <title>Formulário em Aula</title>
+</head>
+<body>
+    <form>
+        <h1>Formulário de E-commerce</h1>
+        
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" name="nome">
+
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco">
+
+        <label for="confirme-senha">Confirme sua senha:</label>
+        <input type="password" id="confirme-senha" name="confirme-senha">
+
+        <label for="pais">País:</label>
+        <select name="pais" id="pais">
+            <option value="Brasil">Brasil</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Uruguai">Uruguai</option>
+        </select>
+
+        <label for="genero">Gênero:</label>
+        <select name="genero" id="genero">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select>
+
+        <fieldset>
+            <legend>Aceitar os temos de serviço:</legend>
+            <input type="checkbox" id="aceito" name="aceito" value="aceito">
+            <label for="aceito">Aceito</label>
+            <input type="checkbox" id="naoAceito" name="naoAceito" value="naoAceito">
+            <label for="naoAceito">Não aceito</label>
+        </fieldset>
+
+        <button type="submit">Cadastrar</button>
+
+    </form>
+</body>
+</html>
+<br><br><br>
+Crie um formulário de cadastro para um site de e-commerce. O formulário deve conter os seguintes campos:
+
+    Nome completo (campo de texto)
+    Endereço de e-mail (campo de e-mail)
+    Senha (campo de senha)
+    Selecione seu país (menu dropdown)
+    Gênero (botões de rádio)
+    Aceitar os termos de serviço (checkbox)
+
+Estilize o formulário para que:
+
+    O botão de envio fique destacado ao passar o mouse (efeito hover).
+    O formulário tenha uma largura de 400px e esteja centralizado na tela.
