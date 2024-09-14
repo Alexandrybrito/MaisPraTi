@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+
+    <style>
+
+       .container {
+        position: relative;
+        background-color: rgb(212, 183, 240);
+        width: 800px;
+        margin: 20px auto;
+        border: 3px solid;
+        top: 10px;
+        left: 30px;
+       }
+
+       .absolute {
+        position: absolute;
+        border: 3px solid yellow;
+        top: 30px;
+        right: 40px;
+        left: 40px;
+        bottom: 10px;
+       }
+
+       .fixed {
+        position:fixed;
+        border: 2px solid blue;
+        top: 400px;
+        left: 10px;
+       }
+
+       .sticky {
+        position: sticky;
+        background-color: aquamarine;
+        top: 0;
+       }
+
+    </style>
+
+</head>
+<body>
+    <!---->
+    <div class="container">
+        <h1>Exemplos de posicionamentos</h1>
+
+        <p class="static">Paragrafo 1 - Posicionamento - Static - não muda, permanece padrão.</p>
+
+        <p class="Relative">Paragrafo 2 - Posicionamento - Relative - O elemento principal e todo movido, mas o espaço anteriormente ocupado continua alocado na memória. não se pode preencher esse espaço com outro elemento</p>
+
+        <p class="absolute">Paragrafo 3 - Posicionamento - Absolute - a posiçao do elemento vai estar relativamente ao elemento pai mais proximo que tenha uma posição diferente de estatica. Será usada quando se quer colocar um elemento num lugar muito especifico que irá ignorar o layout da pagina, como se fosse uma figura por cima de tudo</p>
+
+        <p class="fixed">Paragrafo 4 - Posicionamento - Fixed - O elemento que ele esta posicionado,'o filho' deixa de obedecer as regras do pai para obedecer a janela do navegador (viewport) <span>Eu estive aqui!</span> Dolore qui est hic nisi minima accusantium ex excepturi officia consequuntur nam quae, molestiae non, laudantium ipsam.</p>
+
+        <p class="sticky">Paragrafo 4 - Posicionamento - Sticky - vai conbinar, ele tem um comportamento parecido com relative e fixed o elemento vai ser posicionado de forma relativa ate que a pgina seja rolada ate certo ponto dai ela gruda.</p>
+    </div>
+</body>
+</html>

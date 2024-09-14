@@ -11,23 +11,31 @@
         <h1>Formulário de E-commerce</h1>
         
         <label for="nome">Nome completo:</label>
-        <input type="text" id="nome" name="nome">
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
 
         <label for="endereco">Endereço:</label>
-        <input type="text" id="endereco" name="endereco">
+        <input type="text" id="endereco" name="endereco" placeholder="Digite seu endereço">
 
-        <label for="confirme-senha">Confirme sua senha:</label>
-        <input type="password" id="confirme-senha" name="confirme-senha">
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+
+        <label for="confirme-senha">Confirme a senha:</label>
+        <input type="password" id="confirme-senha" name="confirme-senha" placeholder="confirme a senha">
 
         <label for="pais">País:</label>
         <select name="pais" id="pais">
-            <option value="Brasil">Brasil</option>
+            <option value=""></option>
             <option value="Argentina">Argentina</option>
+            <option value="Brasil">Brasil</option>
+            <option value="colombia">colombia</option>
+            <option value="Equador">Equador</option>
+            <option value="Paraguai">Paraguai</option>
             <option value="Uruguai">Uruguai</option>
         </select>
 
         <label for="genero">Gênero:</label>
         <select name="genero" id="genero">
+            <option value=""></option>
             <option value="masculino">Masculino</option>
             <option value="feminino">Feminino</option>
             <option value="outro">Outro</option>
@@ -36,9 +44,9 @@
         <fieldset>
             <legend>Aceitar os temos de serviço:</legend>
             <input type="checkbox" id="aceito" name="aceito" value="aceito">
-            <label for="aceito">Aceito</label>
+            <label class="inline-label" for="aceito">Aceito</label><br>
             <input type="checkbox" id="naoAceito" name="naoAceito" value="naoAceito">
-            <label for="naoAceito">Não aceito</label>
+            <label class="inline-label" for="naoAceito">Não aceito</label>
         </fieldset>
 
         <button type="submit">Cadastrar</button>
@@ -47,7 +55,8 @@
 </body>
 </html>
 <br><br><br>
-Crie um formulário de cadastro para um site de e-commerce. O formulário deve conter os seguintes campos:
+<!--
+    Crie um formulário de cadastro para um site de e-commerce. O formulário deve conter os seguintes campos:
 
     Nome completo (campo de texto)
     Endereço de e-mail (campo de e-mail)
@@ -60,3 +69,4 @@ Estilize o formulário para que:
 
     O botão de envio fique destacado ao passar o mouse (efeito hover).
     O formulário tenha uma largura de 400px e esteja centralizado na tela.
+--->

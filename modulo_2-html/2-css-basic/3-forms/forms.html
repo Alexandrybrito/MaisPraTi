@@ -10,17 +10,17 @@
     <form>
         <h1>Cadastro de Evento</h1>
 
-        <label for="nome">Nome completo:</label>
-        <input type="text" id="nome" name="nome">
+        <label for="nome">Nome completo:</label> <!--rotulo-->
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome"> <!--name a referencia do input(entrada)-->
 
         <label for="email">E-mail:</label>
         <input type="email" id="email" name="email" placeholder="Digite um e-mail válido">
 
         <label for="senha">Senha:</label>
-        <input type="password" id="Senha" name="Senha">
+        <input type="password" id="Senha" name="Senha" placeholder="Digite sua senha">
 
         <label for="confirme-senha">Confirme sua senha:</label>
-        <input type="password" id="confirme-senha" name="confirme-senha">
+        <input type="password" id="confirme-senha" name="confirme-senha" placeholder="Confirme sua senha">
 
         <label for="genero">Gênero:</label>
         <select name="genero" id="genero">
@@ -37,8 +37,10 @@
         <label for="pais">País:</label>
         <select name="pais" id="pais">
             <option value=""></option>
-            <option value="Brasil">Brasil</option>
             <option value="Argentina">Argentina</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Chile">Chile</option>
+            <option value="Equador">Equador</option>
             <option value="Paraguai">Uruguai</option>
         </select>
         <br>
@@ -52,7 +54,7 @@
             <option value="sp">São Paulo</option>
             <option value="rs">Rio Grande do sul</option>
         </select>
-        <br>
+        
 
         <fieldset>
             <legend>Preferências de Comunicação</legend>
@@ -61,11 +63,11 @@
 
             <input type="checkbox" id="sms-novidades" name="sms-novidades" value="sms-novidades">
             <label class="inline-label" for="sms-novidades">Receber atualizações por SMS
-            </label><br>
+            </label>
         </fieldset>
 
         <label for="foto-perfil">Foto de Perfil:</label>
-        <input type="file" name="foto-perfil" id="foto-perfil"><br>
+        <input type="file" name="foto-perfil" id="foto-perfil">
 
         <button type="submit">Cadastrar</button>
     </form>
