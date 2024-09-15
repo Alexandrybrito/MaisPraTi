@@ -18,7 +18,7 @@ git clone https://github.com/alexandrybrito/MaisPraTi.git
 Navegue até o diretório do projeto: Acesse o diretório do repositório clonado:
 cd nome-do-repositorio
 Como Executar o script
-Instale as dependências: Este script utiliza o módulo prompt-sync para capturar entradas do usuário no terminal. Caso não esteja incluído no repositório, instale-o com:
+Instale as dependências: Este script utiliza o módulo prompt-sync para capturar entradas do usuário no terminal. Se não estiver incluído no repositório, instale-o com:
 npm install prompt-sync
 Execute o script: Execute o script com o comando:
 node nome-do-arquivo.js
