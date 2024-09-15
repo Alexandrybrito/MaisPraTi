@@ -4,5 +4,5 @@
 Para executar estes exercícios será 
 necessário instalar a dependência "prompt-sync", para que o usuário possa inserir entradas pelo terminal.
 
-    Instalação da dependência:
-    npm install --save prompt-sync
+## Lista de Exercícios 2 
+### Exercícios que contemplam manipulação de objetos e arrays de objetos
