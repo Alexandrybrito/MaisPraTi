@@ -1,0 +1,73 @@
+h1 { /* Seletores tipo Tag*/
+
+}
+
+.classe {  /* Seletores tipo Classe*/
+
+}
+
+#id {  /* Seletores tipo Id*/
+
+}
+
+*universal {  /* Seletores tipo Universal*/
+
+}
+
+input[type="text"] { /* Seletores tipo Atributo*/
+
+}
+
+div p {   /* Seletores tipo Descendente * atingindo os paragrafos da div*/
+
+}
+
+ul > li {  /* Seletores de filho direto*/
+    
+}
+ 
+h1 + p {  /* Seletores irmão adjacentes, próximo, imediatamente após o outro*/
+
+}
+
+a:hover {  /*Seletor de Pseudo classe*/
+
+}
+
+h1 ~ p {  /* Seletores de irmão geral, aplica a todos os elemento que são irmãos ao elemento específico*/
+
+}
+
+a:visited {
+
+}
+
+p::after {
+    content:'Seu nome';
+}
+
+p::first-letter {
+
+}
+
+p::first-line {
+
+}
+
+li:nth-child(2) {
+    color: chartreuse;
+}
+
+tr:nth-child(even) {
+
+}
+
+button:not(.primary) {
+    color: aquamarine;
+}
+
+button:active {
+
+}
+
+        
