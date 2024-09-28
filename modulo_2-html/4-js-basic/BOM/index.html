@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM - Browser Object Model</title>
+    <script>
+        let myWindow
+
+        function openWin() {
+            myWindow = window.open('', 'myWindow', 'width=400, height=500')
+            myWindow.document.write('<p>Nova Janela Aberta!</p>')
+        }
+
+        function closeWin() {
+            if (myWindow) {
+                myWindow.close()
+            }
+        }
+
+        function mudaTexto() {
+            myWindow.document.write('Esse texto surgiu a partir da ação ocorrida após uma interação de click! <br>')
+        }
+
+        // let height = window.screen.availHeight
+        // let width = window.screen.availWidth
+
+        // document.write('Altura do navegador: '+ height + 'px<br>')
+        // document.write('Largura do navegador: '+ width + 'px<br>')
+
+        // window.setTimeout(() => {
+        //     document.write('Olá Mundo!<br>')
+        //     alert('Estamos no comando!')
+        // }, 3000)
+
+        // let i = 10;
+        // let j = window.setInterval(() => {
+        //     document.write('Iniciando contagem! <br><br>')
+        //     document.write('Contando.....')
+        //     document.write(i + '<br>');
+        //     i--
+        //     if (i === 0) {
+        //         clearInterval(j);
+        //         document.write('Contagem finalizada!<br>')
+        //     }
+        // }, 2000)
+
+        function redirectTo(url) {
+            window.location.href = url
+        }
+
+    </script>
+</head>
+<body>
+    <button onclick="openWin()">Abrir janela</button>
+    <button onclick="closeWin()">Fechar janela</button>
+    <button onclick="mudaTexto()">Altera Texto</button>
+    <button onclick="botaocontador()">Iniciar Contador</button>
+
+    <button onclick="redirectTo('http://www.google.com.br')">Acessar Google</button>
+</body>
+</html>
+
+<!--
+Crie um botão que ao ser clicado altere o texto na página após 3s (usando setTimeout). Adicione outro botão que exiba um contador que atualiza a cada segundo (usando setIterval).
+
+Crie botões "Voltar" e " Avançar" que utilizam o historico de navegação do navegador (usando windows.history.back() e window.history.forword())
+-->
+
+<!-- <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de setTimeout e setInterval</title>
+</head>
+<body>
+    <h1 id="texto">Texto original</h1>
+    <button id="botaoTexto">Alterar Texto</button>
+    <h2 id="contador">0</h2>
+    <button id="botaoContador">Iniciar Contador</button>
+
+    <script>
+        // Função para alterar o texto após 3 segundos
+        document.getElementById('botaoTexto').addEventListener('click', function() {
+            setTimeout(function() {
+                document.getElementById('texto').innerText = 'Texto alterado!';
+            }, 3000);
+        });
+
+        // Função para iniciar o contador que atualiza a cada segundo
+        document.getElementById('botaoContador').addEventListener('click', function() {
+            let contador = 0;
+            setInterval(function() {
+                contador++;
+                document.getElementById('contador').innerText = contador;
+            }, 1000);
+        });
+    </script>
+</body>
+</html> -->
