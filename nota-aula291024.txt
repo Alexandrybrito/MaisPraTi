@@ -1,0 +1,187 @@
+anotações aula 29/10/24
+
+
+github.com/oneberto/my-simple-blog
+
+
+
+
+juliana maria mesquita
+19:07
+ok rs
+Alailson
+19:08
+KKKKK
+Rodolfo Suaki
+19:10
+Boa noite!
+nicolly santos
+19:10
+boa noitee
+Sula Abreu Costamilan
+19:10
+Boa noite!
+Codifica Edu
+19:10
+https://forms.gle/Jw7QDBKXDcxMkGPq7
+Você
+19:10
+Boa noite Jaques, turma!
+te mandei uma msg no teu whats vc ainda  não viu.....
+Davi Souza Santos
+19:13
+Deus abençoe qeu seja na terça
+Você
+19:13
+voto a nova opção, fora sábado
+Glauco Bairros
+19:13
+68 à 5
+Você
+19:13
+votei nessa enquete tbem
+juliana maria mesquita
+19:14
+apartir de quando professor ?
+ok
+Paulo Diego de Abreu da Silva
+19:15
+Boa noite, guys!
+Tássio Leal Nunes
+19:16
+boa noite
+Joelson Lins
+19:16
+Boa noite bbs
+Jailson Miranda
+19:16
+2a aula que estou assistindo pelo celular.
+Minha rua sem energia
+Ana Claudia Santana
+19:17
+Boa noite!
+Matheus Rodrigues
+19:17
+Boa noite
+Igor Silva Sobral
+19:18
+Joelson ta de presencial hoje
+Joelson Lins
+19:18
+vim assistir direto na  codifica
+Thaynara Vianna
+19:19
+BOA NOITE
+Lorenzo Ribas
+19:19
+npm create vite@latest
+Emerson Pessoa
+19:19
+npx create-vite@latest nome-do-projeto --template react
+Matheus Rodrigues
+19:20
+npm create vite@latest
+Emerson Pessoa
+19:26
+Professor. Pode dá um zoom na fonte?
+Matheus Lima
+19:30
+poderia explicar o hadleaddtask de novo?
+Davi Souza Santos
+19:34
+Para quem utiliza java ou outra linguagem orientada a objetos, da pra olhar isso como um "getter e setter"
+Aesley Soares
+19:34
+massa
+Davi Souza Santos
+19:40
+tem que importar na mian
+Carlos Eduardo
+19:40
+precisa exportar o form e importar
+Thaynara Vianna
+19:40
+tem que exportar ai e importar no app.jsx
+Carlos Eduardo
+19:41
+tem q retornar a li
+Matheus Rodrigues
+19:45
+Novidade, não sabia disso.
+Gabriel de Santana Coimbra Pereira
+19:45
+Mas tem arrow function sem return
+mrt-kebt-vfm
+
+Codifica Edu
+19:49
+Marcar Tarefa como Concluída:
+
+    Ao lado de cada tarefa, inclua um botão "Concluído". Quando clicado, o texto da tarefa deve ser riscado, 
+indicando que a tarefa foi concluída.
+    Utilize um estilo de texto riscado (por exemplo, text-decoration: line-through;) para representar a conclusão.
+
+Limpar Tarefas Concluídas:
+
+    Adicione um botão "Limpar Tarefas Concluídas" abaixo da lista de tarefas. Esse botão deve remover todas 
+as tarefas que foram marcadas como concluídas.
+
+juliana maria mesquita
+21:26
+as minhas to colocando aqui mas tao em html, vai dar para eu fazer esse mesmo modelo com react ? https://maisprati-bootcamp-full-stack-developer-2024.vercel.app/
+ou vou ter que criar repositorio separado ?
+juliana maria mesquita
+21:28
+mas e so eu da o comando dentro da pasta ?
+e quando subir a vercel vai puxar de boa  no deploy ?
+Tássio Leal Nunes
+21:29
+ta padrãozão kkkk
+Emerson Pessoa
+21:29
+Atualizado!
+DEV Alisson Oliveira
+21:29
+https://devalissonoliveira.github.io/maisprati-m3-atv5/
+juliana maria mesquita
+21:30
+professor eu posso entao criar tipo aqui dentro e chamar esse exrcicio que vc passou agora ? 
+https://github.com/JulianaMariaSousaMesquita/maisprati-bootcamp-full-stack-developer-2024/tree/main/Entregas
+que vai aparecer na web la isso que quero saber ou se eu tenho que criar repositorio separado por ser react.
+Wαʅʅαƈҽ Sαɳƚαɳα
+21:31
+https://wallacemt.github.io/to-do-app-maisPraTI/
+DEV Alisson Oliveira
+21:32
+https://devalissonoliveira.github.io/maisprati-m3-atv4/
+juliana maria mesquita
+21:34
+entendi vou pesquisar, obrigada.
+nossa ficou top alisson
+Igor Silva Sobral
+21:35
+https://portfolio-igor-silva-sobral.vercel.app/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+input{
+    max-width: 400px;
+    width: 100%;
+    padding: 5px;
+}
+
+label{
+    display: block;
+    width: auto;
+}
