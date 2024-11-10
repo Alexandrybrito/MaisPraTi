@@ -2,12 +2,12 @@ import { useState, useContext } from "react";
 import { TodoContext } from "../context/TodoContext";
 
 const AddTodo = ()=> {
-    const { addTodo } = useContext(TodoContext)
-    const [newTask, setNewtask] = useState('')
+    const { addTodo } = useContext(TodoContext);
+    const [newTask, setNewtask] = useState('');
 
     const handleAdd = ()=> {
-        addTodo(newTask)
-        setNewtask('')
+        addTodo(newTask);
+        setNewtask('');
     }
 
     return (
@@ -21,10 +21,10 @@ const AddTodo = ()=> {
 
             <button onClick={handleAdd}>Adicionar</button>
         </div>
-    )
+    );
 }
 
-export default AddTodo
+export default AddTodo;
 
 
 

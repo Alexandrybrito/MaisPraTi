@@ -7,10 +7,12 @@ const TodoList = ()=> {
     return (
         <ul>
             {todos.map(todo => (
-                <li key={todo.id}>{todo.task}</li>
+                <li key={todo.id}>
+                    {todo.task}
+                </li>
             ))}
         </ul>
-    )
+    );
 }
 
-export default TodoList
+export default TodoList;
